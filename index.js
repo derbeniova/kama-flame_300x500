@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"index_atlas_1", frames: [[570,241,390,107],[312,350,399,72],[810,138,48,48],[312,424,475,45],[810,0,180,136],[570,0,238,239],[0,0,310,432],[312,0,256,257]]}
+		{name:"index_atlas_1", frames: [[570,239,390,107],[312,348,399,72],[808,138,48,48],[312,422,475,45],[808,0,180,136],[570,0,236,237],[0,0,310,432],[312,0,256,257]]}
 ];
 
 
@@ -27,28 +27,28 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_19 = function() {
+(lib.CachedBmp_8 = function() {
 	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_18 = function() {
+(lib.CachedBmp_7 = function() {
 	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_17 = function() {
+(lib.CachedBmp_6 = function() {
 	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_16 = function() {
+(lib.CachedBmp_5 = function() {
 	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
@@ -118,7 +118,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.wheel, new cjs.Rectangle(-119,-120,238,239), null);
+}).prototype = getMCSymbolPrototype(lib.wheel, new cjs.Rectangle(-119,-120,236,237), null);
 
 
 (lib.tx = function(mode,startPosition,loop,reversed) {
@@ -133,7 +133,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Слой_1
-	this.instance = new lib.CachedBmp_19();
+	this.instance = new lib.CachedBmp_8();
 	this.instance.setTransform(0,0,0.4628,0.4628);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -177,7 +177,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Слой_1
-	this.instance = new lib.CachedBmp_18();
+	this.instance = new lib.CachedBmp_7();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -199,10 +199,10 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Слой_1
-	this.instance = new lib.CachedBmp_17();
+	this.instance = new lib.CachedBmp_6();
 	this.instance.setTransform(209.25,0.25,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_16();
+	this.instance_1 = new lib.CachedBmp_5();
 	this.instance_1.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
